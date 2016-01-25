@@ -105,8 +105,9 @@ main {
  }
 
 section#main {
-     width: 70%;
-     float: left;
+    position: relative;
+    width: 70%;
+    float: left;
  }
 
 aside {
@@ -118,7 +119,11 @@ footer {
      padding: 10px;
      text-align: center;
  }
-
+#holder{
+     position:absolute;
+     top:10px;
+     left:300px;
+ }
 
 /* ==========================================================================
    Media Queries

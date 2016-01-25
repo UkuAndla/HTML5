@@ -15,7 +15,7 @@
     <body>
     <div id="container">
                     <header id="main">
-                        <h1>My HTML5 Website</h1>
+                        <h1>Mood Teller</h1>
                     </header>
                     <nav>
                         <ul>
@@ -29,12 +29,20 @@
                         <section id="main">
                             <article>
                                 <h2>My Headline</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ducimus esse est fugiat impedit inventore itaque libero natus, neque possimus quae quaerat quibusdam quis quisquam quo quod, reprehenderit, similique voluptatum.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magni optio placeat possimus sit. Assumenda consequatur, consequuntur impedit ipsam nisi officia reiciendis vitae. Animi distinctio incidunt numquam pariatur rerum voluptas!
-                                </p>
+                                <h2>Mood Teller</h2>
+                                                <p>Please type in your name and your current mood</p>
+                                                <form id="moodForm" action="#">
+                                                    <labe>Name:</labe>
+                                                    <input type="text" id="name" placeholder="Enter Your Name">
+                                                    <br><br>
+                                                    <labe>Mood:</labe>
+                                                    <input type="text" id="mood" placeholder="Enter Your Mood">
+                                                    <br><br>
+                                                    <button onclick="showMood()">Tell Me</button>
+                                                    <button onclick="clearMood()">Clear Mood</button>
+                                                </form>
+                                                <div id="holder">
+                            </div>
                             </article>
                         </section>
                         <aside>
