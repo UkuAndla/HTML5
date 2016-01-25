@@ -123,6 +123,9 @@ footer {
      position:absolute;
      top:10px;
      left:300px;
+     left:400px;
+    font-size: 35px;
+    width:260px;
  }
 
 /* ==========================================================================
