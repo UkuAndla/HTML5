@@ -2,7 +2,7 @@
 
 html {
      color: #222;
-     font-size: 1em;
+     font-size: 13px;
      line-height: 1.4;
  }
 
@@ -55,20 +55,201 @@ textarea {
 /* ==========================================================================
     Author's custom styles
     ========================================================================== */
+a{
+    color:#333;
+    text-decoration: none;
+}
 
+h2{
+     font-size:25px;
+ }
 
+ul, ol{
+     list-style: none;
+     margin:0;
+     padding:0;
+ }
 
+.container{
+     margin:0 auto;
+     width:80%;
+     overflow:hidden;
+ }
 
+#main-header{
+     height:50px;
+     background:#333;
+     overflow:hidden;
+     margin-bottom:20px;
+ }
+#branding{
+     float:left;
+     width:50%;
+ }
 
+#branding h1{
+     padding:5px 0 0 70px;
+     color:#fff;
+     margin:0 !important;
+ }
 
+#branding img{
+     position: absolute;
+     width:60px;
+     height:auto;
+ }
 
+#main-nav{
+     float:right;
+ }
 
+#main-nav li{
+     float:left;
+     padding:3px 5px 0 5px;
+     margin:0 15px;
+     font-size: 15px;
+     text-transform: uppercase;
+     font-weight:bold;
+     list-style: square;
+     color:#fff;
+ }
 
+#main-nav a{
+     color:#fff;
+ }
 
+#content{
+    float:left;
+    width:63%;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+}
 
+article{
+     border-bottom:1px dotted #ccc;
+     padding:10px 0 20px 0;
+ }
 
+article img{
+     width:100%;
+ }
 
+article h2{
+     margin:0;
+     padding-top: 10px;
+ }
 
+article .meta{
+     margin:10px 0 10px 0;
+     padding:5px;
+     background: #333;
+     color:#fff;
+ }
+
+article .meta span{
+     float:right;
+ }
+
+article .readmore{
+     background: #f4f4f4;
+     color:#000;
+     width:97%;
+     display: block;
+     text-align: center;
+     padding:10px;
+     border:1px solid #ccc;
+     border-radius:10px;
+ }
+
+article .readmore:hover{
+     background: #ccc;
+ }
+
+#sidebar{
+     float:right;
+     width:30%;
+ }
+
+.search{
+     float:right;
+ }
+
+.search input[type="search"]{
+     border:1px solid #ccc;
+     border-radius: 5px;
+     height: 20px;
+     width: 85%;
+     padding: 3px;
+     float:left;
+ }
+
+.search input[type="image"]{
+     width: 10%;
+     float: right;
+ }
+
+#sub-nav{
+     padding:20px 0 20px 0;
+ }
+
+#sub-nav li{
+     font-size:16px;
+     font-weight:bold;
+     padding:5px 0 5px 0;
+     border-bottom: 1px dotted #333;
+ }
+
+#sub-nav a{
+     color:#333;
+ }
+
+#sub-nav a:hover, #sub-nav a.active{
+     color:#ff0000;
+ }
+
+.ad img{
+     width: 100%;
+ }
+
+#main-footer{
+     background: #333;
+     color:#fff;
+     min-height: 180px;
+     margin-top: 20px;
+     overflow: auto;
+ }
+
+#main-footer a{
+     color:#fff;
+ }
+
+#main-footer .copy{
+    padding:20px 0 0 0;
+}
+
+#main-footer .footer-left{
+    float:left;
+    width:30%;
+}
+
+#main-footer .footer-right{
+     float:right;
+     width:70%;
+ }
+
+#main-footer .footer-nav{
+     float:left;
+     font-size: 15px;
+     width:31%;
+     padding: 20px 0 20px 0;
+     margin-right: 10px;
+ }
+
+#main-footer .footer-nav li{
+    padding:5px 0 5px 0;
+    border-bottom: 1px dotted #666;
+}
 
 /* ==========================================================================
     Media Queries
