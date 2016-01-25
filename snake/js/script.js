@@ -102,6 +102,7 @@ $(document).ready(function (){
 
                 }
 
+
             function paint_cell(x,y){
                     ctx.fillStyle = color;
                     ctx.fillRect(x*cw,y*cw,cw,cw);
