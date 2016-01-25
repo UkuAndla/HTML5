@@ -1,4 +1,3 @@
-@@ -0,0 1,66 @@
 body{
     background: #000 url(../img/background.jpg) no-repeat top center;
     font-family: arial sans-serif;
@@ -31,7 +30,7 @@ canvas{
      overflow: auto;
  }
 
-.score{
+#score{
      width: 25%;
      height: 50px;
      padding-top: 20px;
