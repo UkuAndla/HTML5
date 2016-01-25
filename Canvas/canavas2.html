@@ -4,10 +4,16 @@
         <meta charset="UTF-8">
         <title>HTML5 Canvas</title>
         <style>
-            canvas{
-                border:1px solid black;
-            }
-        </style>
+            canvas{<!doctype html>
+                     <html lang="en">
+            <head>
+                  <meta charset="UTF-8">
+                <title>HTML5 Canvas</title>
+                                          <style>
+                                              canvas{
+                                                  border:1px solid black;
+                                              }
+                </style>
         <script>
             var c;
             var ctx;
@@ -20,21 +26,21 @@
                     var posX = 0;
                     var posY = 0;
                     setInterval(function(){
-                            posX=1;
-                            posY=1;
+                            posX+=1;
+                            posY+=1;
                             ctx.fillStyle = "black";
                             ctx.fillRect(0,0, c.width, c.height);
-            
+
                                     ctx.fillStyle="white";
                             ctx.beginPath();
                             ctx.arc(posX,120,55,0,Math.PI*2);
                             ctx.fill();
-            
+
                                     ctx.fillStyle="red";
                             ctx.beginPath();
                             ctx.arc(150,posY,78,0,Math.PI*2);
                             ctx.fill();
-            
+
                                     ctx.fillStyle="blue";
                             ctx.beginPath();
                             ctx.arc(350,posY,38,0,Math.PI*2);
