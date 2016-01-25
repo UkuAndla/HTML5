@@ -101,7 +101,14 @@ ul, ol{
 
 #main-nav{
      float:right;
+     width:50%;
+     padding-top: 12px;
  }
+
+#main-nav ul{
+     float:right;
+ }
+
 
 #main-nav li{
      float:left;
