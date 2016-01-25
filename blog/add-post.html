@@ -3,7 +3,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Single Post | HTML5 blog</title>
+        <title>Add Post | HTML5 blog</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -30,7 +30,7 @@
             <nav id="main-nav">
                 <ul>
                     <li><a href="blog.html">Home</a></li>
-                    <li><a href="../single-post.html">Single Post</a></li>
+                    <li><a href="single-post.html">Single Post</a></li>
                     <li><a href="add-post.html">Add Post</a></li>
                 </ul>
             </nav>
@@ -60,79 +60,35 @@
             </div>
         </aside>
         <section id="content">
-            <article>
-                <header>
-                    <h2>Facebook launches friend-tracking feature</h2>
-    
-                    <div class="meta">
-                        Posted By <strong>R 1 day ago </strong><span>(2 comments)</span>
-                    </div><!-- meta -->
-                </header>
-                <img src="../img/blog1.jpg" alt="Post 1">
-    
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dignissimos doloremque eos et iusto,
-                    nisi officia quis rerum, sapiente suscipit tenetur ut voluptatibus. Ipsa non saepe tenetur veritatis?
-                    Nam, nostrum!
-                </p>
-    
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorem eos facilis iure possimus. Autem
-                    cumque, cupiditate dignissimos doloremque dolores doloribus ea eligendi eveniet exercitationem laborum
-                    modi, placeat provident unde.
-                </p>
-    
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto, ducimus eligendi eveniet
-                    mollitia nam, nemo nulla obcaecati quaerat rem totam veritatis vitae voluptates! Dolorem dolorum eius
-                    fugiat in sit?
-                </p>
-            </article>
-            <footer id="comments">
-                <h3>Recent Comments</h3>
-    
-                <div class="comment-left">
-                    <img src="../img/avatar.png" alt="">
-                </div><!-- comment left -->
-                <div class="comment-right">
-                    <strong>John Doe</strong> Wrote:
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div><!-- comment right -->
-                <div class="clearfix"></div>
-                <hr>
-                <h3>Recent Comments</h3>
-    
-                <div class="comment-left">
-                    <img src="../img/avatar.png" alt="">
-                </div><!-- comment left -->
-                <div class="comment-right">
-                    <strong>John Doe</strong> Wrote:
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div><!-- comment right -->
-                <div class="clearfix"></div>
-                <div class="contact-form">
-                    <h3>Leave Comment</h3>
-    
+            <div class="add-form">
+                <h2>Add Post</h2>
+                <form>
                     <p>
-                        <label>Name:</label>
+                        <label>Post Title:</label>
                         <input type="text">
                     </p>
-    
                     <p>
-                        <label>Email:</label>
-                        <input type="email">
+                        <label>Category</label>
+                        <select>
+                            <option value="">Web Developement</option>
+                            <option value="">Design</option>
+                            <option value="">Cloud & Hosting </option>
+                            <option value="">Gadgets</option>
+                            <option value="">Software</option>
+                            <option value="">SEO & Marketing</option>
+                        </select>
                     </p>
-    
                     <p>
-                        <label>Comment:</label>
+                        <label>Body:</label>
                         <textarea></textarea>
                     </p>
-    
                     <p>
-                        <button>Add Comment</button>
+                        <label>Select Image:</label>
+                        <input type="file">
                     </p>
-                </div><!-- contact form -->
-            </footer>
+                    <button>Add Post</button>
+                </form>
+            </div>
         </section>
         <div class="clearfix"></div>
     </div><!-- container -->
