@@ -217,6 +217,7 @@ article .readmore:hover{
 
 .ad img{
      width: 100%;
+     margin-bottom: 20px;
  }
 
 #main-footer{
@@ -330,7 +331,58 @@ article .readmore:hover{
 /* ==========================================================================
     Media Queries
     ========================================================================== */
+@media only screen and (max-width: 900px) {
+    #branding h1{
+        display: none;
+    }
 
+    #branding{
+             width: 20%;
+         }
+
+    #main-nav{
+             width: 80%;
+         }
+
+    #content{
+             float:none;
+             width: 89%;
+         }
+
+    #sidebar{
+             float:none;
+             width: 100%;
+         }
+
+    #main-footer .footer-left, #main-footer .footer-right{
+             float: none;
+             width: 100%;
+         }
+    #main-footer .footer-nav{
+            float:none;
+            width: 100%;
+        }
+
+    #main-footer .copy{
+             text-align: center;
+         }
+
+}
+
+@media only screen and (max-width: 580px) {
+    #main-nav li{
+            padding: 3px 3px 0 3px;
+            margin:0 5px;
+            font-size: 13px;
+            list-style: none;
+        }
+
+    #content{
+             float:none;
+             width: 89%;
+         }
+}
+     
 @media only screen and (min-width: 35em) {
 
 }
