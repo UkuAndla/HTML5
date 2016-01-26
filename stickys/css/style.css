@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Grande','Helvetica', sans-serif;
-    background-image:url(../img/corkboard.jpg);
+    background-image:url(../stickys/img/corkboard.jpg);
 }
 
 #newNoteButton{
@@ -29,7 +29,7 @@ body{
  }
 .closebutton{
      display: none;
-     background-image: url(../img/remove.png);
+     background-image: url(../stickys/img/remove.png);
      height:30px;
      width:30px;
      position: absolute;
@@ -38,7 +38,7 @@ body{
  }
 
 .closebutton:active{
-     background-image: url(../img/remove_pushed.png);
+     background-image: url(../stickys/img/remove_pushed.png);
  }
 
 .timestamp{
