@@ -9,6 +9,7 @@ if (window.openDatabase) {
     alert("Failed to open database, make sure your browser supports HTML5 web storage");
 }
 
+
 var captured = null;
 var highestZ = 0;
 var highestId = 0;
