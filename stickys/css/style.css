@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Grande','Helvetica', sans-serif;
-    background-image:url(../stickys/img/corkboard.jpg);
+    background-image:url(/stickys/img/corkboard.jpg);
 }
 
 #newNoteButton{
