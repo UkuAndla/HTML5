@@ -174,6 +174,8 @@ Note.prototype = {
         })
     },
 
+
+
     onMouseDown: function (e) {
         captured = this;
         this.startX = e.clientX - this.note.offsetLeft;
