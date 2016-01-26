@@ -9,7 +9,6 @@ if (window.openDatabase) {
     alert("Failed to open database, make sure your browser supports HTML5 web storage");
 }
 
-
 var captured = null;
 var highestZ = 0;
 var highestId = 0;
@@ -173,8 +172,6 @@ Note.prototype = {
             tx.executeSql("INSERT INTO MyStickys (id, note, timestamp, left, top, zindex) VALUES (?, ?, ?, ?, ?, ?)", [note.id, note.text, note.timestamp, note.left, note.top, note.zIndex]);
         })
     },
-
-
 
     onMouseDown: function (e) {
         captured = this;
