@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="audio-image">
+            <img class="cover">
+        </div>
+        <div id="audio-player">
+            <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <input type="range" id="volume" min="0" max="100" value="2">
+            <hr>
+            <div id="button">
+                <span>
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </span>
+            </div>
+            <div class="clearfix"></div>
+            <div id="tracker">
+                <div id="progress-bar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration">-:--</span>
+            </div>
+            <div class="clearfix"></div>
+            <ul id="playlist" class="hidden">
+                <li class="active" song="01 - Styles Of Beyond - Nine Thou (Superstars Remix).mp3" cover="Cover.jpg" artist="Styles Of Beyond">Nine Thou (Superstars Remix)</li>
+                <li song="02 - T.I. Presents The P$C - Do Ya Thang.mp3" cover="Cover.jpg" artist="T.I. Presents The P$C">Do Ya Thang</li>
+                <li song="03 - Rock - I Am Rock.mp3" cover="Cover.jpg" artist="Rock">I Am Rock</li>
+                <li song="04 - Suni Clay - In A Hood Near You.mp3" cover="Cover.jpg" artist="Suni Clay">In A Hood Near You</li>
+                <li song="05 - The Perceptionists  - Let's Move.mp3" cover="Cover.jpg" artist="The Perceptionists">Let's Move</li>
+                <li song="06 - Juvenile - Sets Go Up.mp3" cover="Cover.jpg" artist="Juvenile">Sets Go Up</li>
+                <li song="07 - Hush - Fired Up.mp3" cover="Cover.jpg" artist="Hush">Fired Up</li>
+                <li song="08 - DJ Spooky and Dave Lombardo - B-Side Wins Again feat. Chuck D.mp3" cover="Cover.jpg" artist="DJ Spooky and Dave Lombardo">B-Side Wins Again feat. Chuck D</li>
+                <li song="09 - Celldweller feat. Styles Of Beyond - Shapeshifter.mp3" cover="Cover.jpg" artist="Celldweller feat. Styles Of Beyond">Shapeshifter</li>
+                <li song="10 - Lupe Fiasco - Tilted.mp3" cover="Cover.jpg" artist="Lupe Fiasco">Tilted</li>
+                <li song="11 - Ils - Feed The Addiction.mp3" cover="Cover.jpg" artist="Ils">Feed The Addiction</li>
+                <li song="12 - Celldweller - One Good Reason.mp3" cover="Cover.jpg" artist="Celldweller">One Good Reason</li>
+                <li song="13 - Hyper - We Control.mp3" cover="Cover.jpg" artist="Hyper">We Control</li>
+                <li song="14 - Static-X - Skinnyman.mp3" cover="Cover.jpg" artist="Static-X">Skinnyman</li>
+                <li song="15 - Diesel Boy + Kaos - Barrier Break.mp3" cover="Cover.jpg" artist="Diesel Boy">arrier Break</li>
+                <li song="16 - Disturbed - Decadence.mp3" cover="Cover.jpg" artist="Disturbed">Decadence</li>
+                <li song="17 - The Prodigy - You'll Be Under My Wheels.mp3" cover="Cover.jpg" artist="The Prodigy">You'll Be Under My Wheels</li>
+                <li song="18 - The Roots and BT - Tao Of The Machine (Scott Humphrey's Remix).mp3" cover="Cover.jpg" artist="The Roots and BT">Tao Of The Machine (Scott Humphrey's Remix)</li>
+                <li song="19 - Stratus - You Must Follow (Evol Intent VIP).mp3" cover="Cover.jpg" artist="Stratus">You Must Follow (Evol Intent VIP)</li>
+                <li song="20 - Mastodon - Blood And Thunder.mp3" cover="Cover.jpg" artist="Mastodon">Blood And Thunder</li>
+                <li song="21 - Evol Intent, Mayhem & Thinktank - Broken Sword.mp3" cover="Cover.jpg" artist="Evol Intent, Mayhem & Thinktank">Broken Sword</li>
+                <li song="22 - Bullet For My Valentine - Hand Of Blood.mp3" cover="Cover.jpg" artist="Bullet For My Valentine">Hand Of Blood</li>
+                <li song="23 - Paul Linford and Chris Vrenna - The Mann.mp3" cover="Cover.jpg" artist="Paul Linford and Chris Vrenna">The Mann</li>
+                <li song="24 - Avenged Sevenfold - Blinded In Chains.mp3" cover="Cover.jpg" artist="Avenged Sevenfold">Blinded In Chains</li>
+                <li song="25 - Jamiroquai - Feels Just Like It Should (Timo Maas Remix).mp3" cover="Cover.jpg" artist="Jamiroquai">Feels Just Like It Should (Timo Maas Remix)</li>
+                <li song="26 - Paul Linford and Chris Vrenna - Most Wanted Mash Up.mp3" cover="Cover.jpg" artist="Paul Linford and Chris Vrenna">Most Wanted Mash Up</li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
