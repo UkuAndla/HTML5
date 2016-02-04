@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance Meter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Distance Meter</h1>
+    </header>
+    <p>
+        <strong>Starting Postition</strong>
+        <br>
+        <span id="startLat">Aquiring Latitude...</span>
+        <span id="startLon">Aquiring Longitude...</span>
+    </p>
+
+    <p>
+        <strong>Current Postition</strong>
+        <br>
+        <span id="currentLat">Aquiring Latitude...</span>
+        <span id="currentLon">Aquiring Longitude...</span>
+    </p>
+
+    <p>
+        <strong>Distance Gone</strong>
+        <br>
+        <span id="distance">0</span> Kilometers
+    </p>
+    <p>
+        <button id="startBtn" onclick="startTracking()">Start Tracking</button>
+        <button id="stopBtn" onclick="stopTracking()">Stop Tracking</button>
+    </p>
+    <footer>
+        <span>Copyright &copy; 2015, Distance Meter</span>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
