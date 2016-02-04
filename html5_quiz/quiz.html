@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="pull-left">
+                HTML5 Quiz
+            </div>
+            <div class="pull-right">
+                www.eduonix.com
+            </div>
+        </header>
+        <main>
+            <form action="" class="questionForm" id="q1" data-question="1">
+                <h3>1. Which tag should be used to represent the "header" of a document?</h3>
+                <ul>
+                    <li><input type="radio" name="q1" value="a">&lt;head&gt;</li>
+                    <li><input type="radio" name="q1" value="b">&lt;header&gt;</li>
+                    <li><input type="radio" name="q1" value="c">&lt;heading&gt;</li>
+                    <li><input type="radio" name="q1" value="d">&lt;main&gt;</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+            <form action="" class="questionForm" id="q2" data-question="2">
+                <h3>2. Which of the following is NOT a new feature of HTML5?</h3>
+                <ul>
+                    <li><input type="radio" name="q2" value="a">New Media Elements</li>
+                    <li><input type="radio" name="q2" value="b">Form Input Types</li>
+                    <li><input type="radio" name="q2" value="c">Local Storage</li>
+                    <li><input type="radio" name="q2" value="d">Cookies</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+            <form action="" class="questionForm" id="q3" data-question="3">
+                <h3>3. Which element is the most appropriate to wrap around each blog post on a page?</h3>
+                <ul>
+                    <li><input type="radio" name="q3" value="a">&lt;section&gt;</li>
+                    <li><input type="radio" name="q3" value="b">&lt;post&gt;</li>
+                    <li><input type="radio" name="q3" value="c">&lt;article&gt;</li>
+                    <li><input type="radio" name="q3" value="d">&lt;main&gt;</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+            <form action="" class="questionForm" id="q4" data-question="4">
+                <h3>4. Which HTML5 tag is used for a sidebar content?</h3>
+                <ul>
+                    <li><input type="radio" name="q4" value="a">&lt;aside&gt;</li>
+                    <li><input type="radio" name="q4" value="b">&lt;sidebar&gt;</li>
+                    <li><input type="radio" name="q4" value="c">&lt;sub&gt;</li>
+                    <li><input type="radio" name="q4" value="d">&lt;side&gt;</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+            <form action="" class="questionForm" id="q5" data-question="5">
+                <h3>5. Using canvas, which is used to color in a rectangle?</h3>
+                <ul>
+                    <li><input type="radio" name="q5" value="a">strokeStyle</li>
+                    <li><input type="radio" name="q5" value="b">fillRect</li>
+                    <li><input type="radio" name="q5" value="c">strokeFill</li>
+                    <li><input type="radio" name="q5" value="d">rectFill</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+            <div id="results"></div>
+            <br>
+        </main>
+        <footer>
+            <div class="pull-left">
+                Total: 5 Questions
+            </div>
+        </footer>
+    </div><!-- comtainer -->
+    <!-- Include JQuery -->
+    <script src="../js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
