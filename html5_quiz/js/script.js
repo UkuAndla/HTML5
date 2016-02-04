@@ -4,6 +4,7 @@ var point = 2; // Points per correct answer
 var highest = total * point;
 
 
+
 // Initializer
 function init(){
     // Set correct answers
