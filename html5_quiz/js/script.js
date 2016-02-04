@@ -12,7 +12,6 @@ function init(){
     sessionStorage.setItem('a4','a');
     sessionStorage.setItem('a5','b');
 }
-
 $(document).ready(function(){
     // Hide all questions
    $('.questionForm').hide();
